@@ -1,6 +1,7 @@
 <?php
 
-namespace Decorator;
+namespace FactoryMethod;
+
 use FactoryMethod\ToyFactory\ToyCatFactory;
 use FactoryMethod\ToyFactory\ToyDogFactory;
 

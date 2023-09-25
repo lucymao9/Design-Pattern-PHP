@@ -8,7 +8,8 @@ use FactoryMethod\Toy\ToyCat;
 class ToyCatFactory implements IToyFactory
 {
 
-    public function product(): Toy
+
+    public function product(): ToyCat
     {
         return new ToyCat();
     }
